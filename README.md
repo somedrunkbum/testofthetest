@@ -22,7 +22,8 @@
 
 ## Scenario 2
 
-Taking into consideration the scenario, here is what seems interesting to monitor from my perspective. After connecting the whole system to a standard set of monitoring metrics I would highlight the following:
+Taking into consideration the scenario, here is what seems interesting to monitor from my perspective. 
+After connecting the host to a standard set of system monitoring metrics I would highlight the following:
 - System load average. Should be on every dashboard. After checking the number of cores for our CPU’s, LA for our setup should not get higher than 112. I suppose that Hyper-Threading is enabled, which makes sense for this use of the server.
 - CPU load. Since the use of our server is highly CPU oriented.
 - CPU io. One of the most important metrics as well, to spot bottlenecks.
